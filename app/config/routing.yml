@@ -1,0 +1,3 @@
+cci_ram_sco:
+    resource: "@CCIRamScoBundle/Resources/config/routing.yml"
+    prefix:   /

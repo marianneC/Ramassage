@@ -1,0 +1,17 @@
+byebye_world:
+    path: byebye-world
+    defaults: { _controller: CCIRamScoBundle:Yasmina:findumonde }
+
+personne_home:
+    path: personne
+    defaults: { _controller: CCIRamScoBundle:Yasmina:index }
+
+personne_view:
+    path: personne/{id}
+    defaults: { _controller: CCIRamScoBundle:Yasmina:view }
+    requirements : 
+        id: \d+
+
+personne_add:    
+    path: personne/add
+    defaults: { _controller: CCIRamScoBundle:Yasmina:add }
