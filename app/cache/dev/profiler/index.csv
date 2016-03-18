@@ -1,0 +1,7 @@
+297ef3,127.0.0.1,GET,http://localhost:8000/app_dev.php/register,1458313675,,301
+833892,127.0.0.1,GET,http://localhost:8000/app_dev.php/register/,1458313680,,200
+7607f2,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1458313729,,200
+a47acf,127.0.0.1,GET,http://localhost:8000/app_dev.php/register,1458314868,,301
+17c802,127.0.0.1,GET,http://localhost:8000/app_dev.php/register/,1458314871,,200
+372bf5,127.0.0.1,GET,http://localhost:8000/app_dev.php/register/,1458315117,468417,200
+468417,127.0.0.1,POST,http://localhost:8000/app_dev.php/register/,1458315117,,500

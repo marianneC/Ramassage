@@ -3,23 +3,20 @@
 namespace CCI\RamScoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use FOS\UserBundle\Model\User as BaseUser;
 
 /**
- * Personne
- *
  * @ORM\Table(name="personne")
  * @ORM\Entity(repositoryClass="CCI\RamScoBundle\Repository\PersonneRepository")
  */
-class Personne
+class Personne extends BaseUser
 {
     /**
-     * @var int
-     *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
@@ -47,6 +44,11 @@ class Personne
 		$this->date= new \Datetime();
 	}*/
     
+    public function __construct()
+    {
+        parent::__construct();
+        // your own logic
+    }
     
     /**
      * Get id
