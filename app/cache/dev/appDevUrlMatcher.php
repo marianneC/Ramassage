@@ -119,17 +119,30 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::indexAction',  '_route' => 'personne_home',);
         }
 
-        if (0 === strpos($pathinfo, '/personne')) {
-            // personne_view
-            if (preg_match('#^/personne/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'personne_view')), array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::viewAction',));
+        if (0 === strpos($pathinfo, '/p')) {
+            if (0 === strpos($pathinfo, '/personne')) {
+                // personne_view
+                if (preg_match('#^/personne/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'personne_view')), array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::viewAction',));
+                }
+
+                // personne_add
+                if ($pathinfo === '/personne/add') {
+                    return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::addAction',  '_route' => 'personne_add',);
+                }
+
             }
 
-            // personne_add
-            if ($pathinfo === '/personne/add') {
-                return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::addAction',  '_route' => 'personne_add',);
+            // profil
+            if ($pathinfo === '/profile') {
+                return array (  '_controller' => 'FOS\\UserBundle\\Controller\\ProfileController::showAction',  '_route' => 'profil',);
             }
 
+        }
+
+        // accueil
+        if ($pathinfo === '/accueil') {
+            return array (  '_controller' => 'FOSUserBundle:layout',  '_route' => 'accueil',);
         }
 
         if (0 === strpos($pathinfo, '/log')) {
