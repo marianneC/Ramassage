@@ -523,7 +523,7 @@
     <parameter key="fos_user.firewall_name">main</parameter>
     <parameter key="fos_user.model_manager_name">null</parameter>
     <parameter key="fos_user.model.user.class">CCI\RamScoBundle\Entity\Personne</parameter>
-    <parameter key="fos_user.profile.form.type">FOS\UserBundle\Form\Type\ProfileFormType</parameter>
+    <parameter key="fos_user.profile.form.type">CCI\RamScoBundle\Form\ProfileType</parameter>
     <parameter key="fos_user.profile.form.name">fos_user_profile_form</parameter>
     <parameter key="fos_user.profile.form.validation_groups" type="collection">
       <parameter>Profile</parameter>
@@ -636,6 +636,9 @@
   <services>
     <service id="app.form.registration" class="CCI\RamScoBundle\Form\RegistrationType">
       <tag name="form.type" alias="app_user_registration"/>
+    </service>
+    <service id="app.form.profile" class="CCI\RamScoBundle\Form\ProfileType">
+      <tag name="form.type" alias="app_user_profile"/>
     </service>
     <service id="controller_name_converter" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser" public="false">
       <tag name="monolog.logger" channel="request"/>
@@ -1412,6 +1415,8 @@
             <argument type="collection">
               <argument key="app_user_registration">app.form.registration</argument>
               <argument key="CCI\RamScoBundle\Form\RegistrationType">app.form.registration</argument>
+              <argument key="app_user_profile">app.form.profile</argument>
+              <argument key="CCI\RamScoBundle\Form\ProfileType">app.form.profile</argument>
               <argument key="form">form.type.form</argument>
               <argument key="Symfony\Component\Form\Extension\Core\Type\FormType">form.type.form</argument>
               <argument key="birthday">form.type.birthday</argument>
@@ -2190,7 +2195,7 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>56ed61147d4269.48102753</argument>
+            <argument>56ed85e2be2e95.92666232</argument>
           </service>
         </argument>
       </argument>
@@ -2479,7 +2484,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>56ed61147d4269.48102753</argument>
+            <argument>56ed85e2be2e95.92666232</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -3104,7 +3109,7 @@
     <service id="fos_user.profile.form.factory" class="FOS\UserBundle\Form\Factory\FormFactory">
       <argument type="service" id="form.factory"/>
       <argument>fos_user_profile_form</argument>
-      <argument>FOS\UserBundle\Form\Type\ProfileFormType</argument>
+      <argument>CCI\RamScoBundle\Form\ProfileType</argument>
       <argument type="collection">
         <argument>Profile</argument>
         <argument>Default</argument>

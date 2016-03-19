@@ -73,3 +73,6 @@ fos_user:
     registration:
         form:
             type: CCI\RamScoBundle\Form\RegistrationType
+    profile:
+        form:
+            type: CCI\RamScoBundle\Form\ProfileType

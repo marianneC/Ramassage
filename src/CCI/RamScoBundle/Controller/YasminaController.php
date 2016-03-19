@@ -23,7 +23,7 @@ class YasminaController extends Controller
     return new Response("Affichage de l'annonce d'id : ".$id);
   }
 
-    public function indexAction()
+    /*public function indexAction()
 
     {
 
@@ -42,17 +42,17 @@ class YasminaController extends Controller
 
         return new Response("L'URL de l'annonce d'id 5 est : ".$url);
 
-    }
+    }*/
     
-    /*public function indexAction()
+    public function indexAction()
 
     {
 $content = $this->get('templating')
 ->render('CCIRamScoBundle:Yasmina:index.html.twig', 
-array('nom' => 'Yasmina'));
+array('Nom' => 'Chatratfouine', 'Prenom' => 'Yasmina', 'Adresse' => 'Farfaraway', 'id' => '12'));
 return new Response($content);
 
-    }*/
+    }
     
     public function findumondeAction()
 

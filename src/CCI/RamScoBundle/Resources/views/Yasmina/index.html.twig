@@ -4,25 +4,30 @@
 
     <head>
 
-        <title>Bienvenue sur ma première page avec OpenClassrooms !</title>
+        <title>Espace Membre !</title>
 
     </head>
 
     <body>
 
-        <h1>Hello {{ nom }} !</h1>
+        <h1>Hello {{ Nom }} {{ Prenom }} !</h1>
 
         
 
         <p>
-
-            Le Hello World est un grand classique en programmation.
-
-            Il signifie énormément, car cela veut dire que vous avez
-
-            réussi à exécuter le programme pour accomplir une tâche simple :
-
-            afficher ce hello world !
+		Vos informations personnelles :
+            Numéro d'adhérent : {{ id }} :<br />
+			Adresse : {{ Adresse }}<br />
+			Cotisation :<br />
+			Enfants : Oui / Non ? Puis leurs nom ?<br />
+			Mail :<br />
+			Permis : Oui / Non<br />
+			<br />
+		Activités :	<br />
+			Nom de l'activité :<br />
+			Lieu :<br />
+			Rôle dans cette activité :<br />
+			
 
         </p>
 
