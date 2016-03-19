@@ -49,7 +49,7 @@ class YasminaController extends Controller
     {
 $content = $this->get('templating')
 ->render('CCIRamScoBundle:Yasmina:index.html.twig', 
-array('nom' => 'Yasmina'));
+array('Nom' => 'Chatratfouine', 'Prenom' => 'Yasmina', 'Adresse' => 'Farfaraway', 'id' => '12'));
 return new Response($content);
 
     }
