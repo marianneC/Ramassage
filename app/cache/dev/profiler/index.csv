@@ -34,3 +34,12 @@ da34db,127.0.0.1,POST,http://localhost:8000/app_dev.php/login_check,1458398294,,
 318566,127.0.0.1,GET,http://localhost:8000/app_dev.php/register,1458400396,,301
 9242e4,127.0.0.1,GET,http://localhost:8000/app_dev.php/register/,1458400399,,200
 c1cbd4,127.0.0.1,GET,http://localhost:8000/app_dev.php/register/,1458400420,,200
+a0c3ae,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1458400718,,200
+b5ab9f,127.0.0.1,POST,http://localhost:8000/app_dev.php/login_check,1458400729,,302
+f5ef37,127.0.0.1,GET,http://localhost:8000/app_dev.php/,1458400732,a28bfe,200
+a28bfe,127.0.0.1,GET,http://localhost:8000/app_dev.php/,1458400732,,404
+961cc0,127.0.0.1,GET,http://localhost:8000/app_dev.php//,1458400741,f15950,200
+f15950,127.0.0.1,GET,http://localhost:8000/app_dev.php//,1458400741,,404
+7eb112,127.0.0.1,GET,http://localhost:8000/app_dev.php/,1458400747,b4f136,200
+b4f136,127.0.0.1,GET,http://localhost:8000/app_dev.php/,1458400748,,404
+81ba55,127.0.0.1,GET,http://localhost:8000/app_dev.php/,1458400826,,200

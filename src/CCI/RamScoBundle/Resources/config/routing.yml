@@ -3,7 +3,7 @@ byebye_world:
     defaults: { _controller: CCIRamScoBundle:Yasmina:findumonde }
 
 personne_home:
-    path: personne
+    path: /
     defaults: { _controller: CCIRamScoBundle:Yasmina:index }
 
 personne_view:

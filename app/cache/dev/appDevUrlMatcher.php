@@ -110,12 +110,16 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::findumondeAction',  '_route' => 'byebye_world',);
         }
 
-        if (0 === strpos($pathinfo, '/personne')) {
-            // personne_home
-            if ($pathinfo === '/personne') {
-                return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::indexAction',  '_route' => 'personne_home',);
+        // personne_home
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'personne_home');
             }
 
+            return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::indexAction',  '_route' => 'personne_home',);
+        }
+
+        if (0 === strpos($pathinfo, '/personne')) {
             // personne_view
             if (preg_match('#^/personne/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
                 return $this->mergeDefaults(array_replace($matches, array('_route' => 'personne_view')), array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::viewAction',));
