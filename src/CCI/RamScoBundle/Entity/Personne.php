@@ -21,32 +21,29 @@ class Personne extends BaseUser
     /**
      * @var string
      *
-     * @ORM\Column(name="Nom", type="string", length=255)
+     * @ORM\Column(name="Nom", type="string", length=255, nullable=true)
      */
     private $nom;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="Prenom", type="string", length=255)
+     * @ORM\Column(name="Prenom", type="string", length=255, nullable=true)
      */
     private $prenom;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="Adresse", type="string", length=255)
+     * @ORM\Column(name="Adresse", type="string", length=255, nullable=true)
      */
     private $adresse;
 
-    /* Date d'inscription
-     * public function __construct(){
-		$this->date= new \Datetime();
-	}*/
-    
+   
     public function __construct()
     {
         parent::__construct();
+        $this->date= new \Datetime();
         // your own logic
     }
     
