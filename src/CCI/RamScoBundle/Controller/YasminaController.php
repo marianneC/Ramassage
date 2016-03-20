@@ -54,6 +54,15 @@ return new Response($content);
 
     }
     
+    /*public function layoutAction()
+
+    {
+$content = $this->get('templating')
+->render('CCIRamScoBundle:Yasmina:layout.html.twig');
+return new Response($content);
+
+    }*/
+    
     public function findumondeAction()
 
     {
