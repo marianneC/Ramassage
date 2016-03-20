@@ -21,8 +21,8 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_191930978827d61d774f23ce3f63fe0c0e136c9cef47f71b50db4634a8dd7ae3 = $this->env->getExtension("native_profiler");
-        $__internal_191930978827d61d774f23ce3f63fe0c0e136c9cef47f71b50db4634a8dd7ae3->enter($__internal_191930978827d61d774f23ce3f63fe0c0e136c9cef47f71b50db4634a8dd7ae3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CCIRamScoBundle::layout.html.twig"));
+        $__internal_45f237bfbe40a5eb99ee78229172430666de753e1b21055ce8f1a485572be142 = $this->env->getExtension("native_profiler");
+        $__internal_45f237bfbe40a5eb99ee78229172430666de753e1b21055ce8f1a485572be142->enter($__internal_45f237bfbe40a5eb99ee78229172430666de753e1b21055ce8f1a485572be142_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CCIRamScoBundle::layout.html.twig"));
 
         // line 1
         echo "<title>";
@@ -33,40 +33,40 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
         // line 3
         $this->displayBlock('content', $context, $blocks);
         
-        $__internal_191930978827d61d774f23ce3f63fe0c0e136c9cef47f71b50db4634a8dd7ae3->leave($__internal_191930978827d61d774f23ce3f63fe0c0e136c9cef47f71b50db4634a8dd7ae3_prof);
+        $__internal_45f237bfbe40a5eb99ee78229172430666de753e1b21055ce8f1a485572be142->leave($__internal_45f237bfbe40a5eb99ee78229172430666de753e1b21055ce8f1a485572be142_prof);
 
     }
 
     // line 1
     public function block_title($context, array $blocks = array())
     {
-        $__internal_630d4c488a222379b00ecd10c52abaa26335f34fd2fccfb902afadbbd7fa9b73 = $this->env->getExtension("native_profiler");
-        $__internal_630d4c488a222379b00ecd10c52abaa26335f34fd2fccfb902afadbbd7fa9b73->enter($__internal_630d4c488a222379b00ecd10c52abaa26335f34fd2fccfb902afadbbd7fa9b73_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_928db8a37acc701bc78a486e58cdbdfe17f74c4fa18561da0caf402e7895ef3f = $this->env->getExtension("native_profiler");
+        $__internal_928db8a37acc701bc78a486e58cdbdfe17f74c4fa18561da0caf402e7895ef3f->enter($__internal_928db8a37acc701bc78a486e58cdbdfe17f74c4fa18561da0caf402e7895ef3f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Le tapis roulant";
         
-        $__internal_630d4c488a222379b00ecd10c52abaa26335f34fd2fccfb902afadbbd7fa9b73->leave($__internal_630d4c488a222379b00ecd10c52abaa26335f34fd2fccfb902afadbbd7fa9b73_prof);
+        $__internal_928db8a37acc701bc78a486e58cdbdfe17f74c4fa18561da0caf402e7895ef3f->leave($__internal_928db8a37acc701bc78a486e58cdbdfe17f74c4fa18561da0caf402e7895ef3f_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_f1b0033cd01b07f169909b4358c02f5bd2c31710053ff47ddf43d450d61842fa = $this->env->getExtension("native_profiler");
-        $__internal_f1b0033cd01b07f169909b4358c02f5bd2c31710053ff47ddf43d450d61842fa->enter($__internal_f1b0033cd01b07f169909b4358c02f5bd2c31710053ff47ddf43d450d61842fa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_f2e404d0d4ab99ff0ee45587b83e70cfad93aa07707f32d6d267196f69165183 = $this->env->getExtension("native_profiler");
+        $__internal_f2e404d0d4ab99ff0ee45587b83e70cfad93aa07707f32d6d267196f69165183->enter($__internal_f2e404d0d4ab99ff0ee45587b83e70cfad93aa07707f32d6d267196f69165183_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
         echo "    ";
         $this->displayBlock('fos_user_content', $context, $blocks);
         
-        $__internal_f1b0033cd01b07f169909b4358c02f5bd2c31710053ff47ddf43d450d61842fa->leave($__internal_f1b0033cd01b07f169909b4358c02f5bd2c31710053ff47ddf43d450d61842fa_prof);
+        $__internal_f2e404d0d4ab99ff0ee45587b83e70cfad93aa07707f32d6d267196f69165183->leave($__internal_f2e404d0d4ab99ff0ee45587b83e70cfad93aa07707f32d6d267196f69165183_prof);
 
     }
 
     public function block_fos_user_content($context, array $blocks = array())
     {
-        $__internal_f882f235295a6fdd7d8a454060a458b8386dca762dddd6dc9f68a6a17ede54e3 = $this->env->getExtension("native_profiler");
-        $__internal_f882f235295a6fdd7d8a454060a458b8386dca762dddd6dc9f68a6a17ede54e3->enter($__internal_f882f235295a6fdd7d8a454060a458b8386dca762dddd6dc9f68a6a17ede54e3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "fos_user_content"));
+        $__internal_1455e6972e20aca5dd9024332da90edf5a75a89b5f610970ed871be74acbf346 = $this->env->getExtension("native_profiler");
+        $__internal_1455e6972e20aca5dd9024332da90edf5a75a89b5f610970ed871be74acbf346->enter($__internal_1455e6972e20aca5dd9024332da90edf5a75a89b5f610970ed871be74acbf346_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "fos_user_content"));
 
         // line 5
         echo "\t\t
@@ -85,7 +85,7 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 \t\t\t\t<span class=\"icon-bar\"></span>
 \t\t\t\t<span class=\"icon-bar\"></span>                        
 \t\t\t  </button>
-\t\t\t  <a class=\"navbar-brand\" href=\"#\">Le tapis roulant</a>
+\t\t\t  <a class=\"navbar-brand\" href=\"accueil\">Le tapis roulant</a>
 \t\t\t</div>
 \t\t\t<div class=\"collapse navbar-collapse\" id=\"myNavbar\">
 \t\t\t  <ul class=\"nav navbar-nav\">
@@ -99,9 +99,10 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 \t\t\t\t  </ul>
 \t\t\t\t</li>
 \t\t\t\t<li class=\"dropdown\">
-\t\t\t\t  <a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">Adhérents <span class=\"caret\"></span></a>
+\t\t\t\t  <a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"/profile\">Adhérents <span class=\"caret\"></span></a>
 \t\t\t\t  <ul class=\"dropdown-menu\">
-\t\t\t\t\t<li><a href=\"#\">Devenir adhérent</a></li>
+\t\t\t\t\t<li><a href=\"/register\">Devenir adhérent</a></li>
+\t\t\t\t\t<li><a href=\"/profile\">Accès espace membre</a></li>
 \t\t\t\t\t<li><a href=\"#\">Liste des adhérents</a></li>
 \t\t\t\t  </ul>
 \t\t\t\t</li>
@@ -115,8 +116,8 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 \t\t\t\t<li><a href=\"#\">Contacts</a></li>
 \t\t\t  </ul>
 \t\t\t  <ul class=\"nav navbar-nav navbar-right\">
-\t\t\t\t<li><a href=\"#\"><span class=\"glyphicon glyphicon-user\"></span> S'inscrire</a></li>
-\t\t\t\t<li><a href=\"#\"><span class=\"glyphicon glyphicon-log-in\"></span> Connexion</a></li>
+\t\t\t\t<li><a href=\"/register\"><span class=\"glyphicon glyphicon-user\"></span> S'inscrire</a></li>
+\t\t\t\t<li><a href=\"/login\"><span class=\"glyphicon glyphicon-log-in\"></span> Connexion</a></li>
 \t\t\t  </ul>
 \t\t\t</div>
 \t\t  </div>
@@ -125,7 +126,7 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 \t
 
 \t\t<h1>";
-        // line 116
+        // line 117
         $this->displayBlock('titreSite', $context, $blocks);
         echo "</h1>\t
 \t\t
@@ -134,9 +135,9 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 \t
 \t<div class=\"contenu\">
         ";
-        // line 122
+        // line 123
         $this->displayBlock('body', $context, $blocks);
-        // line 124
+        // line 125
         echo "\t</div>
 
 \t\t
@@ -145,7 +146,7 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 \t\t
 \t<footer class=\"container-fluid text-center\">
 \t  <p><a href=\"#\">FARYM</a> © ";
-        // line 131
+        // line 132
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo "</p>
 \t</footer>
@@ -158,15 +159,15 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
   </div>
 ";
         
-        $__internal_f882f235295a6fdd7d8a454060a458b8386dca762dddd6dc9f68a6a17ede54e3->leave($__internal_f882f235295a6fdd7d8a454060a458b8386dca762dddd6dc9f68a6a17ede54e3_prof);
+        $__internal_1455e6972e20aca5dd9024332da90edf5a75a89b5f610970ed871be74acbf346->leave($__internal_1455e6972e20aca5dd9024332da90edf5a75a89b5f610970ed871be74acbf346_prof);
 
     }
 
     // line 6
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_cd65cd82590cfd0565a20f94166d1141ad2e3f3e0947a0b296a954a119e3fda7 = $this->env->getExtension("native_profiler");
-        $__internal_cd65cd82590cfd0565a20f94166d1141ad2e3f3e0947a0b296a954a119e3fda7->enter($__internal_cd65cd82590cfd0565a20f94166d1141ad2e3f3e0947a0b296a954a119e3fda7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_d9e93cc3c3fe0ccbcf96175d80b031eb09be7a708acf09eda6e0d62ab3202167 = $this->env->getExtension("native_profiler");
+        $__internal_d9e93cc3c3fe0ccbcf96175d80b031eb09be7a708acf09eda6e0d62ab3202167->enter($__internal_d9e93cc3c3fe0ccbcf96175d80b031eb09be7a708acf09eda6e0d62ab3202167_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 7
         echo "
@@ -229,32 +230,32 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 \t</style>
   ";
         
-        $__internal_cd65cd82590cfd0565a20f94166d1141ad2e3f3e0947a0b296a954a119e3fda7->leave($__internal_cd65cd82590cfd0565a20f94166d1141ad2e3f3e0947a0b296a954a119e3fda7_prof);
+        $__internal_d9e93cc3c3fe0ccbcf96175d80b031eb09be7a708acf09eda6e0d62ab3202167->leave($__internal_d9e93cc3c3fe0ccbcf96175d80b031eb09be7a708acf09eda6e0d62ab3202167_prof);
 
     }
 
-    // line 116
+    // line 117
     public function block_titreSite($context, array $blocks = array())
     {
-        $__internal_47d8834e99e5acad578e4a51bed6c558911694c3c339882fffe0d50183c96681 = $this->env->getExtension("native_profiler");
-        $__internal_47d8834e99e5acad578e4a51bed6c558911694c3c339882fffe0d50183c96681->enter($__internal_47d8834e99e5acad578e4a51bed6c558911694c3c339882fffe0d50183c96681_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titreSite"));
+        $__internal_9c379dec77601705092e4e59a3a9006ee140c6c7c45df9e5039f16f667d6afa7 = $this->env->getExtension("native_profiler");
+        $__internal_9c379dec77601705092e4e59a3a9006ee140c6c7c45df9e5039f16f667d6afa7->enter($__internal_9c379dec77601705092e4e59a3a9006ee140c6c7c45df9e5039f16f667d6afa7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titreSite"));
 
         echo "Le tapis roulant";
         
-        $__internal_47d8834e99e5acad578e4a51bed6c558911694c3c339882fffe0d50183c96681->leave($__internal_47d8834e99e5acad578e4a51bed6c558911694c3c339882fffe0d50183c96681_prof);
+        $__internal_9c379dec77601705092e4e59a3a9006ee140c6c7c45df9e5039f16f667d6afa7->leave($__internal_9c379dec77601705092e4e59a3a9006ee140c6c7c45df9e5039f16f667d6afa7_prof);
 
     }
 
-    // line 122
+    // line 123
     public function block_body($context, array $blocks = array())
     {
-        $__internal_7da1e9b74cb6e284e18967973ce415b5a733f8cafea06e8d2c9f22aca7148881 = $this->env->getExtension("native_profiler");
-        $__internal_7da1e9b74cb6e284e18967973ce415b5a733f8cafea06e8d2c9f22aca7148881->enter($__internal_7da1e9b74cb6e284e18967973ce415b5a733f8cafea06e8d2c9f22aca7148881_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_7d729dd4c01bcacb27d71333ba062fbdd4ca5d96027b4097c962313861195960 = $this->env->getExtension("native_profiler");
+        $__internal_7d729dd4c01bcacb27d71333ba062fbdd4ca5d96027b4097c962313861195960->enter($__internal_7d729dd4c01bcacb27d71333ba062fbdd4ca5d96027b4097c962313861195960_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 123
+        // line 124
         echo "        ";
         
-        $__internal_7da1e9b74cb6e284e18967973ce415b5a733f8cafea06e8d2c9f22aca7148881->leave($__internal_7da1e9b74cb6e284e18967973ce415b5a733f8cafea06e8d2c9f22aca7148881_prof);
+        $__internal_7d729dd4c01bcacb27d71333ba062fbdd4ca5d96027b4097c962313861195960->leave($__internal_7d729dd4c01bcacb27d71333ba062fbdd4ca5d96027b4097c962313861195960_prof);
 
     }
 
@@ -265,7 +266,7 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 
     public function getDebugInfo()
     {
-        return array (  255 => 123,  249 => 122,  237 => 116,  172 => 7,  166 => 6,  149 => 131,  140 => 124,  138 => 122,  129 => 116,  77 => 66,  75 => 6,  72 => 5,  59 => 4,  53 => 3,  41 => 1,  34 => 3,  28 => 1,);
+        return array (  256 => 124,  250 => 123,  238 => 117,  173 => 7,  167 => 6,  150 => 132,  141 => 125,  139 => 123,  130 => 117,  77 => 66,  75 => 6,  72 => 5,  59 => 4,  53 => 3,  41 => 1,  34 => 3,  28 => 1,);
     }
 }
 /* <title>{% block title %}Le tapis roulant{% endblock %}</title>*/
@@ -344,7 +345,7 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 /* 				<span class="icon-bar"></span>*/
 /* 				<span class="icon-bar"></span>                        */
 /* 			  </button>*/
-/* 			  <a class="navbar-brand" href="#">Le tapis roulant</a>*/
+/* 			  <a class="navbar-brand" href="accueil">Le tapis roulant</a>*/
 /* 			</div>*/
 /* 			<div class="collapse navbar-collapse" id="myNavbar">*/
 /* 			  <ul class="nav navbar-nav">*/
@@ -358,9 +359,10 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 /* 				  </ul>*/
 /* 				</li>*/
 /* 				<li class="dropdown">*/
-/* 				  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Adhérents <span class="caret"></span></a>*/
+/* 				  <a class="dropdown-toggle" data-toggle="dropdown" href="/profile">Adhérents <span class="caret"></span></a>*/
 /* 				  <ul class="dropdown-menu">*/
-/* 					<li><a href="#">Devenir adhérent</a></li>*/
+/* 					<li><a href="/register">Devenir adhérent</a></li>*/
+/* 					<li><a href="/profile">Accès espace membre</a></li>*/
 /* 					<li><a href="#">Liste des adhérents</a></li>*/
 /* 				  </ul>*/
 /* 				</li>*/
@@ -374,8 +376,8 @@ class __TwigTemplate_eb8ed3d21270fe1597a99da12b316964f86dab80c3c6859221bbeb964ff
 /* 				<li><a href="#">Contacts</a></li>*/
 /* 			  </ul>*/
 /* 			  <ul class="nav navbar-nav navbar-right">*/
-/* 				<li><a href="#"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>*/
-/* 				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Connexion</a></li>*/
+/* 				<li><a href="/register"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>*/
+/* 				<li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Connexion</a></li>*/
 /* 			  </ul>*/
 /* 			</div>*/
 /* 		  </div>*/

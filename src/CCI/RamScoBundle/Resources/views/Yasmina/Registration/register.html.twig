@@ -1,0 +1,12 @@
+{% extends "CCIRamScoBundle::layout.html.twig" %}
+
+{% block title %}
+	Devenir adhérent - {{ parent() }}
+{% endblock %}
+
+{% block fos_user_content %}
+{% include "FOSUserBundle:Registration:register_content.html.twig" %}
+
+
+
+{% endblock fos_user_content %}

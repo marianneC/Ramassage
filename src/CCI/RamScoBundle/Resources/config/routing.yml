@@ -21,9 +21,11 @@ index:
     
 accueil:
     path: accueil
-    defaults: { _controller: CCIRamScoBundle:Yasmina:indexPerso }
+    defaults: { _controller: CCIRamScoBundle:Yasmina:indexPerso}
 
-
+register:
+    path: register
+    defaults: { _controller: FOSUserBundle:Registration:register}
     
 profil:
     path: profile

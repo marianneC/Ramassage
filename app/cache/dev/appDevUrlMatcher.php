@@ -133,6 +133,11 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::indexPersoAction',  '_route' => 'accueil',);
         }
 
+        // register
+        if ($pathinfo === '/register') {
+            return array (  '_controller' => 'FOS\\UserBundle\\Controller\\RegistrationController::registerAction',  '_route' => 'register',);
+        }
+
         // profil
         if ($pathinfo === '/profile') {
             return array (  '_controller' => 'FOS\\UserBundle\\Controller\\ProfileController::showAction',  '_route' => 'profil',);
