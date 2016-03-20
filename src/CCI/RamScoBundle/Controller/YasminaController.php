@@ -54,14 +54,15 @@ return new Response($content);
 
     }
     
-    /*public function layoutAction()
+    public function indexPersoAction()
 
     {
 $content = $this->get('templating')
-->render('CCIRamScoBundle:Yasmina:layout.html.twig');
+->render('CCIRamScoBundle:Yasmina:indexPerso.html.twig', 
+array('Nom' => 'Chatratfouine', 'Prenom' => 'Yasmina', 'Adresse' => 'Farfaraway', 'id' => '12'));
 return new Response($content);
 
-    }*/
+    }
     
     public function findumondeAction()
 

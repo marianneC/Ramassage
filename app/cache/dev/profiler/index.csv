@@ -1,2 +1,4 @@
-bd893f,127.0.0.1,GET,http://localhost:8000/byebye-world,1458457307,,200
-7b4080,127.0.0.1,GET,http://localhost:8000/accueil,1458457318,,200
+7ae183,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1458458786,,200
+b5371d,127.0.0.1,GET,http://localhost:8000/accueil,1458458795,,200
+e42a61,127.0.0.1,GET,http://localhost:8000/images/image_bus.jpg,1458458797,9472e9,200
+9472e9,127.0.0.1,GET,http://localhost:8000/images/image_bus.jpg,1458458797,,404

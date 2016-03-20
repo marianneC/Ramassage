@@ -83,7 +83,7 @@
   'CCIRamScoBundle:Yasmina:findumonde.html.twig' => 'D:\\Site\\Ramassage\\src\\CCI\\RamScoBundle/Resources/views/Yasmina/findumonde.html.twig',
   'CCIRamScoBundle:Yasmina:index.html.twig' => 'D:\\Site\\Ramassage\\src\\CCI\\RamScoBundle/Resources/views/Yasmina/index.html.twig',
   'CCIRamScoBundle:Yasmina:indexPerso.html.twig' => 'D:\\Site\\Ramassage\\src\\CCI\\RamScoBundle/Resources/views/Yasmina/indexPerso.html.twig',
-  'CCIRamScoBundle:Yasmina:layoutPerso.html.twig' => 'D:\\Site\\Ramassage\\src\\CCI\\RamScoBundle/Resources/views/Yasmina/layoutPerso.html.twig',
+  'CCIRamScoBundle:Yasmina/Security:login.html.twig' => 'D:\\Site\\Ramassage\\src\\CCI\\RamScoBundle/Resources/views/Yasmina/Security/login.html.twig',
   'CCIRamScoBundle:Yasmina:testpersonne.html.twig' => 'D:\\Site\\Ramassage\\src\\CCI\\RamScoBundle/Resources/views/Yasmina/testpersonne.html.twig',
   'FOSUserBundle:ChangePassword:changePassword.html.twig' => 'D:\\Site\\Ramassage\\vendor\\friendsofsymfony\\user-bundle/Resources/views/ChangePassword/changePassword.html.twig',
   'FOSUserBundle:ChangePassword:changePassword_content.html.twig' => 'D:\\Site\\Ramassage\\vendor\\friendsofsymfony\\user-bundle/Resources/views/ChangePassword/changePassword_content.html.twig',

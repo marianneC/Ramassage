@@ -123,9 +123,14 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
+        // index
+        if ($pathinfo === '/index') {
+            return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::indexAction',  '_route' => 'index',);
+        }
+
         // accueil
         if ($pathinfo === '/accueil') {
-            return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::indexAction',  '_route' => 'accueil',);
+            return array (  '_controller' => 'CCI\\RamScoBundle\\Controller\\YasminaController::indexPersoAction',  '_route' => 'accueil',);
         }
 
         // profil
