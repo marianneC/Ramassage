@@ -2,10 +2,6 @@ byebye_world:
     path: byebye-world
     defaults: { _controller: CCIRamScoBundle:Yasmina:findumonde }
 
-personne_home:
-    path: /
-    defaults: { _controller: CCIRamScoBundle:Yasmina:index }
-
 personne_view:
     path: personne/{id}
     defaults: { _controller: CCIRamScoBundle:Yasmina:view }
@@ -15,3 +11,21 @@ personne_view:
 personne_add:    
     path: personne/add
     defaults: { _controller: CCIRamScoBundle:Yasmina:add }
+
+
+
+
+index:
+    path: index
+    defaults: { _controller: CCIRamScoBundle:Yasmina:index }
+    
+accueil:
+    path: accueil
+    defaults: { _controller: CCIRamScoBundle:Yasmina:indexPerso }
+
+
+    
+profil:
+    path: profile
+    defaults: { _controller: FOSUserBundle:Profile:show }
+    

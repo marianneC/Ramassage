@@ -15,13 +15,11 @@ class __TwigTemplate_97f6aff76c05d74998b40c22213be57d1f297c39e733dd527a1a7ee8c5d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_55d020075988ab89c5c3b74015d65222742340e4e2fb6a089e8b701e1f2a69b2 = $this->env->getExtension("native_profiler");
-        $__internal_55d020075988ab89c5c3b74015d65222742340e4e2fb6a089e8b701e1f2a69b2->enter($__internal_55d020075988ab89c5c3b74015d65222742340e4e2fb6a089e8b701e1f2a69b2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CCIRamScoBundle:Yasmina:index.html.twig"));
+        $__internal_d1108bbe88c62550c2060459263190ea387d24ac8fc281e1f07b3fe4851ef1b4 = $this->env->getExtension("native_profiler");
+        $__internal_d1108bbe88c62550c2060459263190ea387d24ac8fc281e1f07b3fe4851ef1b4->enter($__internal_d1108bbe88c62550c2060459263190ea387d24ac8fc281e1f07b3fe4851ef1b4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "CCIRamScoBundle:Yasmina:index.html.twig"));
 
         // line 1
-        echo "<!DOCTYPE html>
-
-<html>
+        echo "<html>
 
     <head>
 
@@ -32,7 +30,7 @@ class __TwigTemplate_97f6aff76c05d74998b40c22213be57d1f297c39e733dd527a1a7ee8c5d
     <body>
 
         <h1>Hello ";
-        // line 13
+        // line 11
         echo twig_escape_filter($this->env, (isset($context["Nom"]) ? $context["Nom"] : $this->getContext($context, "Nom")), "html", null, true);
         echo " ";
         echo twig_escape_filter($this->env, (isset($context["Prenom"]) ? $context["Prenom"] : $this->getContext($context, "Prenom")), "html", null, true);
@@ -43,11 +41,11 @@ class __TwigTemplate_97f6aff76c05d74998b40c22213be57d1f297c39e733dd527a1a7ee8c5d
         <p>
 \t\tVos informations personnelles :
             Numéro d'adhérent : ";
-        // line 19
+        // line 17
         echo twig_escape_filter($this->env, (isset($context["id"]) ? $context["id"] : $this->getContext($context, "id")), "html", null, true);
         echo " :<br />
 \t\t\tAdresse : ";
-        // line 20
+        // line 18
         echo twig_escape_filter($this->env, (isset($context["Adresse"]) ? $context["Adresse"] : $this->getContext($context, "Adresse")), "html", null, true);
         echo "<br />
 \t\t\tCotisation :<br />
@@ -66,10 +64,9 @@ class __TwigTemplate_97f6aff76c05d74998b40c22213be57d1f297c39e733dd527a1a7ee8c5d
     </body>
 
 </html>
-
 ";
         
-        $__internal_55d020075988ab89c5c3b74015d65222742340e4e2fb6a089e8b701e1f2a69b2->leave($__internal_55d020075988ab89c5c3b74015d65222742340e4e2fb6a089e8b701e1f2a69b2_prof);
+        $__internal_d1108bbe88c62550c2060459263190ea387d24ac8fc281e1f07b3fe4851ef1b4->leave($__internal_d1108bbe88c62550c2060459263190ea387d24ac8fc281e1f07b3fe4851ef1b4_prof);
 
     }
 
@@ -85,11 +82,9 @@ class __TwigTemplate_97f6aff76c05d74998b40c22213be57d1f297c39e733dd527a1a7ee8c5d
 
     public function getDebugInfo()
     {
-        return array (  51 => 20,  47 => 19,  36 => 13,  22 => 1,);
+        return array (  49 => 18,  45 => 17,  34 => 11,  22 => 1,);
     }
 }
-/* <!DOCTYPE html>*/
-/* */
 /* <html>*/
 /* */
 /*     <head>*/
@@ -124,5 +119,4 @@ class __TwigTemplate_97f6aff76c05d74998b40c22213be57d1f297c39e733dd527a1a7ee8c5d
 /*     </body>*/
 /* */
 /* </html>*/
-/* */
 /* */
