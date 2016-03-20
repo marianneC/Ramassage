@@ -20,6 +20,9 @@ class ProfileType extends ProfileFormType
                 'label' => 'profile.fields.lastname',
                 'translation_domain' => 'forms'
             ))
+            ->add('Adresse', 'text', array(
+                'label' => 'profile.fields.adress')
+            ))
             
         ;
     }
