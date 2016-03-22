@@ -31,6 +31,3 @@ profil:
     path: profile
     defaults: { _controller: FOSUserBundle:Profile:show }
     
-adherent:    
-    path: adherent
-    defaults: { _controller: CCIRamScoBundle:Yasmina:adherent }

@@ -104,7 +104,16 @@ return new Response($content);
 	return $this->render('CCIRamScoBundle:Yasmina:add.html.twig', 
 	array('personne' => $personne));
     }
-	}
+    
+
+	//Page adherent avec formulaire pas reliée à la BDD
+	public function adherentAction()
+    {
+		return $this->render('CCIRamScoBundle:Yasmina:adherent.html.twig');
+    }
+    
+    
+}
 	
 	
 
