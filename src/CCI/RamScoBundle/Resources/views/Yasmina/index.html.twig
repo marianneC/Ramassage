@@ -1,12 +1,11 @@
-<html>
+{% extends "CCIRamScoBundle::layout.html.twig" %}
 
-    <head>
+{% block title %}
+	Espace Membre - {{ parent() }}
+{% endblock %}
 
-        <title>Espace Membre !</title>
-
-    </head>
-
-    <body>
+{% block body %}
+    
 
         <h1>Hello {{ Nom }} {{ Prenom }} !</h1>
 
@@ -29,6 +28,4 @@
 
         </p>
 
-    </body>
-
-</html>
+{% endblock %}
